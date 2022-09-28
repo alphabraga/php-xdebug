@@ -1,7 +1,7 @@
 <?php
 
-$nome = $_GET['name'] ?? 'name must be provided';
+$name = $_GET['name'] ?? 'name must be provided';
 
-$nomeUpper = mb_strtoupper($nome);
+$nameUpper = mb_strtoupper($name);
 
-echo $nomeUpper;
+echo $nameUpper;
